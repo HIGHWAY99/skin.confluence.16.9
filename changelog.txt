@@ -1,0 +1,78 @@
+[B]2.1.379 - 2014-02-22 - Changes By TheHighway[/B]
+- Setting up a project on Github.
+- Identity Change:
+### Addon Name: Confluence 16:9 Icons
+### Addon ID: skin.confluence.16.9
+
+[B]2.1.379 - 2014-02-22 - Changes By TheHighway[/B]
+- Added Themes & Colors from skin.confluence-lite-mod:  Yellow, Woody, TransYellow, TransPurple, TransPink, TransOrange, TransLiteBlue, TransLime, TransKrypto, TransGrey, TransFire, TransDarkBlue, SeaGreen, Purple-Pink, Purple, Pink, Orange, Lime, Kryptonite, Grey, Fire, Blue.  Placed "Lite_" infront of the theme's names.
+### Thanks to TexturePacker (tool).
+### Credit to Mudislander for skin.confluence-lite-mod and it's Themes.
+### https://github.com/Mudislander/skin.confluence-lite-mod/tree/master/media/Themes
+
+[B]2.1.379 - 2014-02-21 - Changes By TheHighway[/B]
+- disabled notify.wav and out.wav in "/sounds/sounds.xml".
+- Testing some .xbt media themes from other skins to see how they would work on this skin.  No others really to speak of for now.
+- Attempted a "/colors/testing.xml" but I really don't see any visible changes at the moment.
+- Added from skin.confluence.custom.mod:  Fire & Kryptonite themes and colors.
+
+[B]2.1.378 - 2014-02-06 - Changes By TheHighway[/B]
+- 9991,9992,9993 ID's were set to the labels for handling the text in the top-left corner of screens.  This was so I could easily grab the label text(s) and see what screen it's on.
+- Handling for non-default custom background images to be shown instead of the default one in as many screens as possible.  while some do use $LOCALIZE[#], others do use english text instead where needed to make things work for my personal use.  This means those using a different language might have the default background image showing up on some screens, instead.
+- XBMCHUB graphic "devil is in the detail" graphic someone had made for me a while back.  I blacked out the background as well as I could and placed it in place of the settings.jpg image.  Needed a little change as the old one was nice and all but was getting a bit stale with age.
+- XBMCHUB Logo replacing the XBMC Logo watermark on homescreen.
+- Custom Backgrounds for: Music, Programs, Settings.
+- Custom Background for Video(videos/movies/tvshows).
+- That should tell ya why I named it to 16:9, besides the obvious inside joke that it's also a resolution.
+- Picture, Music, Program Add-ons - Number of Shortcuts set to 9
+- Video Add-ons - Number of Shortcuts set to 16
+- Addon Name: "Confluence 16:9 Icons"
+
+- Credit to Jezz_X and Team XBMC for all the work they've put into the previous reincarnations of the skin and it's various mods.
+
+[B]2.1.3[/B]
+
+- Updated language files from Transifex
+
+[B]2.1.2[/B]
+
+- Updated language files from Transifex
+
+[B]2.1.0[/B]
+
+- Changed the home menu to Horizontal Layout instead of Vertical
+- Added support for the TvTunes Addon enable it in skin settings\General (if you have it installed)
+- Added support for the Weather+ script (install it and select it in weather settings)
+- Updated translation files
+- Added some more codec flagging images (eg: pcm_bluray, wav files, etc)
+- Added Visual notification in Add-on Thumbnail view if an add-on is broken
+
+[B]2.0.0[/B]
+
+- Bumped the skin version up for the major change to eden branch
+
+[B]1.2.0[/B]
+
+- All media views now follow a similar layout off File List on the Left hand side and icons/data on the right
+- Views are all now in content panels (no fullscreen black)
+- Added a thumb view for addons
+- Non full screen Now Playing Media info (Bottom left) has more info
+- Full screen Now Playing Media info trimmed down
+- Fullscreen Player controls changed
+- Media windows side menu is completely redesigned (and also lower case)
+- Added a "filter" button to all media windows
+- Added Filter (BLAH) text to the item/page count bottom right
+- Removed the Disc Play button from home (which relies on !System.HasMediaDVD to appear)
+- Repositioned the seekbar from lower right to upper right
+
+[B]1.1.0[/B]
+
+- Redesigned the video and Music OSD Info and controls
+- Added more images for codec flagging on videos and audio
+- Added all the windows needed for the new Addon Browser
+- Removed the right hand side bar graphic from all windows and only made the left hand one visible if a menu is there
+- Lots of other little changes
+
+[B]1.0.0[/B]
+
+- Initial Commit to the SVN

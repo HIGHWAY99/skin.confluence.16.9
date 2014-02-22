@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.confluence.16.9"
+  version="2.1.379"
+  name="Confluence 16:9 Icons"
+  provider-name="The[COLOR tan]Highway[/COLOR]">
+  <requires>
+    <import addon="xbmc.gui" version="4.0.0"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="da">En moddet version af Jezz_X's Confluence skin</summary>
+    <summary lang="de">Eine modifizierte Version von  Jezz_X's Confluence Skin</summary>
+    <summary lang="el">Μια τροποποιημένη έκδοση του κελύφους Confluence του Jezz_X</summary>
+    <summary lang="en">A modded version of Jezz_X's Confluence skin</summary>
+    <summary lang="es">Una versión modificada del skin Confluence de Jezz_X</summary>
+    <summary lang="gl">Unha versión modificada do tema Confluence de Jezz_X</summary>
+    <summary lang="hr">Prilagođena Confluence presvlaka autora Jezz_X. </summary>
+    <summary lang="hu">Módosított verzió , az eredeti Confluence felszín alapján</summary>
+    <summary lang="ko">Jezz_X의 Confluence 스킨을 수정한 버전</summary>
+    <summary lang="ms">Versi mod bagi kulit Confluence Jezz_X</summary>
+    <summary lang="nl">een Gemodificeerde versie van Jezz_X's Confluence ontwerp</summary>
+    <summary lang="pt">Uma versão modificada do tema Confluence de Jezz_X</summary>
+    <summary lang="ru">Модифицированная версия обложки Confluence, созданной Jezz_X</summary>
+    <summary lang="th">รุ่นปรับแต่งของสกิน Confluence โดย Jezz_X</summary>
+    <summary lang="zh">一个Jezz_X的Confluence皮肤的修改版</summary>
+    <description>This is a modded version of Confluence with the Debbuging Skin incorporated.  Remember to install Debugging Skin's keymap for F6 F7 key toggling of the skin and data.  Thanks goes out to many including Jezz_X, Team XBMC, Mudislander, and XBMC HUB.</description>
+    <disclaimer lang="ca">Confluence és l'aparença per defecte de l'XBMC, la seva eliminació pot causar problemes.</disclaimer>
+    <disclaimer lang="en">Confluence is the default skin for XBMC, removing it may cause issues</disclaimer>
+    <disclaimer lang="fr">Confluence est le skin par défaut de XBMC, l'effacer peut créer des dysfonctionnements</disclaimer>
+    <disclaimer lang="hu">A Confluence az alapértelmezett XBMC arculat. Annak eltávolítása problémákat okozhat.</disclaimer>
+    <disclaimer lang="ko">Confluence는 XBMC의 기본스킨으로 제거시 문제가 야기될수 있습니다.</disclaimer>
+    <disclaimer lang="nl">Confluence is de standaard XMBC skin, het verwijderen van Confluence kan leiden tot problemen.</disclaimer>
+    <disclaimer lang="pl">Confluence jest domyślną skórą XBMC. Jej usunięcie może powodować problemy.</disclaimer>
+    <disclaimer lang="pt">O tema Confluence é o tema padrão do XBMC. Removê-lo pode causar problemas. A sério! Deixe-o instalado, mesmo que não o use.</disclaimer>
+    <disclaimer lang="ro">Confluence este costumul implicit pentru XBMC, dacă îl eliminați pot apărea probleme!</disclaimer>
+    <disclaimer lang="se">Confluence är standardskalet för XBMC 9.11 och över. Det är en kombination av koncept från många populära skal och försöker fånga och integrera alla goda ideer i ett skal som ska vara enkelt att förstå och använda för förstagångsanvändaren av XBMC.</disclaimer>
+    <disclaimer lang="zh">Confluence是XMBC的默认皮肤，删除它可能导致故障。</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
