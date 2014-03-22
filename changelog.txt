@@ -1,3 +1,7 @@
+[B]2.1.380 - 2014-03-22 - Changes By TheHighway[/B]
+- <!-- Video Info --> Position Adjstued on Home Screen.
+- Fixed border on playing buttons on Home Screen.
+
 [B]2.1.380 - 2014-03-17 - Changes By TheHighway[/B]
 - Added Skin Settings to System Sub-Menu on Home Screen.
 - Added Addon-ID to Add-on Information Dialog.

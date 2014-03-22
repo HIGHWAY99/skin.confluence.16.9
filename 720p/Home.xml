@@ -231,7 +231,7 @@
 		<!-- Video Info -->
 		<control type="group">
 			<posx>0</posx>
-			<posy>50</posy>
+			<posy>20</posy>
 			<visible>Player.HasVideo + !Skin.HasSetting(homepageVideoinfo)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
@@ -514,7 +514,7 @@
 					<posy>0</posy>
 					<width>205</width>
 					<height>35</height>
-					<texture flipy="true" border="0,5,0,0">HomeSubNF.png</texture>
+					<texture flipy="false" border="5">HomeSubNF.png</texture>
 					<colordiffuse>CCFFFFFF</colordiffuse>
 				</control>
 				<control type="group">
@@ -702,8 +702,8 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="5">HomeSubFO.png</texturefocus>
-				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
+				<texturefocus flipy="false" border="5">HomeSubFO.png</texturefocus>
+				<texturenofocus flipy="false" border="5">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>31008</label>
 				<onclick>fullscreen</onclick>
