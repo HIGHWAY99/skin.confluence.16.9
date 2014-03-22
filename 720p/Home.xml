@@ -448,14 +448,14 @@
 			<texturenofocus>-</texturenofocus>
 			<onleft>9000</onleft>
 			<onright>9000</onright>
-			<onup>20</onup>
-			<ondown>608</ondown>
+			<onup>9002</onup>
+			<ondown>20</ondown>
 			<visible>false</visible>
 		</control>
 		<control type="group">
 			<description>Controls for currently playing media</description>
 			<posx>545r</posx>
-			<posy>370</posy>
+			<posy>630</posy>
 			<animation effect="slide" start="0,0" end="365,0" time="300" condition="!Player.HasMedia">conditional</animation>
 			<animation type="WindowOpen" reversible="false">
 				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
@@ -472,7 +472,7 @@
 				<width>35</width>
 				<height>35</height>
 				<colordiffuse>CCFFFFFF</colordiffuse>
-				<texture flipy="true" border="0,5,0,0" flipx="true">HomeSubEnd.png</texture>
+				<texture flipy="false" border="0,0,0,5" flipx="true">HomeSubEnd.png</texture>
 				<animation effect="slide" start="0,0" end="145,0" time="0" condition="!System.HasAddon(script.globalsearch)">Conditional</animation>
 			</control>
 			<control type="radiobutton" id="608">
@@ -489,8 +489,8 @@
 				<font>font12</font>
 				<textcolor>grey2</textcolor>
 				<focusedcolor>white</focusedcolor>
-				<texturefocus flipy="true" border="5">HomeSubFO.png</texturefocus>
-				<texturenofocus flipy="true" border="5">HomeSubNF.png</texturenofocus>
+				<texturefocus flipy="false" border="5">HomeSubFO.png</texturefocus>
+				<texturenofocus flipy="false" border="5">HomeSubNF.png</texturenofocus>
 				<pulseonselect>false</pulseonselect>
 				<label>137</label>
 				<onclick>RunScript(script.globalsearch)</onclick>
@@ -498,14 +498,14 @@
 				<textureradionofocus>icon_search.png</textureradionofocus>
 				<onleft>607</onleft>
 				<onright>601</onright>
-				<onup>9003</onup>
-				<ondown>9000</ondown>
+				<onup>9000</onup>
+				<ondown>20</ondown>
 				<visible>System.HasAddon(script.globalsearch)</visible>
 			</control>
 			<control type="group" id="600">
 				<posx>180</posx>
-				<onup>9003</onup>
-				<ondown>9000</ondown>
+				<onup>9000</onup>
+				<ondown>608</ondown>
 				<defaultcontrol>-</defaultcontrol>
 				<enable>Player.HasMedia</enable>
 				<control type="image">
@@ -529,8 +529,8 @@
 						<texturenofocus>OSDPrevTrackNF.png</texturenofocus>
 						<onleft>608</onleft>
 						<onright>602</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Previous)</onclick>
 					</control>
 					<control type="button" id="602">
@@ -543,8 +543,8 @@
 						<texturenofocus>OSDRewindNF.png</texturenofocus>
 						<onleft>601</onleft>
 						<onright>603</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Rewind)</onclick>
 					</control>
 					<control type="togglebutton" id="603">
@@ -560,8 +560,8 @@
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 						<onleft>602</onleft>
 						<onright>604</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Play)</onclick>
 					</control>
 					<control type="button" id="604">
@@ -574,8 +574,8 @@
 						<texturenofocus>OSDStopNF.png</texturenofocus>
 						<onleft>603</onleft>
 						<onright>605</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>down</onclick>
 						<onclick>XBMC.PlayerControl(Stop)</onclick>
 					</control>
@@ -589,8 +589,8 @@
 						<texturenofocus>OSDForwardNF.png</texturenofocus>
 						<onleft>604</onleft>
 						<onright>606</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Forward)</onclick>
 					</control>
 					<control type="button" id="606">
@@ -603,8 +603,8 @@
 						<texturenofocus>OSDNextTrackNF.png</texturenofocus>
 						<onleft>605</onleft>
 						<onright>607</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Next)</onclick>
 					</control>
 				</control>
@@ -620,8 +620,8 @@
 						<texturenofocus>OSDChannelUPNF.png</texturenofocus>
 						<onleft>608</onleft>
 						<onright>602</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Previous)</onclick>
 					</control>
 					<control type="button" id="602">
@@ -634,8 +634,8 @@
 						<texturenofocus>OSDChannelDownNF.png</texturenofocus>
 						<onleft>601</onleft>
 						<onright>603</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Next)</onclick>
 					</control>
 					<control type="button" id="603">
@@ -648,8 +648,8 @@
 						<texturenofocus>OSDStopNF.png</texturenofocus>
 						<onleft>602</onleft>
 						<onright>604</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>down</onclick>
 						<onclick>XBMC.PlayerControl(Stop)</onclick>
 					</control>
@@ -666,8 +666,8 @@
 						<alttexturenofocus>OSDPlayNF.png</alttexturenofocus>
 						<onleft>603</onleft>
 						<onright>606</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(Play)</onclick>
 						<enable>Player.PauseEnabled</enable>
 						<animation effect="fade" start="100" end="30" time="100" condition="!Player.PauseEnabled">Conditional</animation>
@@ -682,8 +682,8 @@
 						<texturenofocus>OSDRecordOffNF.png</texturenofocus>
 						<onleft>604</onleft>
 						<onright>607</onright>
-						<onup>9003</onup>
-						<ondown>9000</ondown>
+						<onup>9000</onup>
+						<ondown>9003</ondown>
 						<onclick>XBMC.PlayerControl(record)</onclick>
 					</control>
 				</control>
@@ -711,13 +711,13 @@
 				<textureradionofocus>GoFullscreen.png</textureradionofocus>
 				<onleft>606</onleft>
 				<onright>608</onright>
-				<onup>9003</onup>
-				<ondown>9000</ondown>
+				<onup>9000</onup>
+				<ondown>9003</ondown>
 				<enable>Player.HasMedia</enable>
 			</control>
 		</control>
 		<control type="group">
-			<posy>400</posy>
+			<posy>560</posy>
 			<animation type="WindowOpen" reversible="false">
 				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300" />
 				<effect type="fade" start="0" end="100" time="300" />
@@ -793,7 +793,7 @@
 				<posy>0</posy>
 				<width>1480</width>
 				<height>75</height>
-				<texture border="0,6,0,6">HomeBack.png</texture>
+				<texture border="0,6,0,6" flipy="false" flipx="false">HomeBack.png</texture>
 			</control>
 			<control type="image">
 				<posx>0</posx>
@@ -809,9 +809,9 @@
 				<height>60</height>
 				<onleft>9000</onleft>
 				<onright>9000</onright>
-				<onup condition="System.HasAddon(script.globalsearch)">608</onup>
-				<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
-				<ondown>9001</ondown>
+				<ondown condition="System.HasAddon(script.globalsearch)">608</ondown>
+				<ondown condition="!System.HasAddon(script.globalsearch)">603</ondown>
+				<onup>9001</onup>
 				<pagecontrol>-</pagecontrol>
 				<scrolltime>300</scrolltime>
 				<focusposition>2</focusposition>
@@ -974,15 +974,15 @@
 			</control>
 		</control>
 		<control type="group" id="9002">
-			<onup>9001</onup>
-			<ondown>20</ondown>
+			<onup>9003</onup>
+			<ondown>9001</ondown>
 			<control type="fixedlist" id="700">
-				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(700).NumItems,2) | StringCompare(Container(700).NumItems,4)">conditional</animation>
+				<animation effect="slide" start="0,0" end="91,0" time="0" condition="StringCompare(Container(700).NumItems,2) | StringCompare(Container(700).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(2) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11)</visible>
 				<onleft>700</onleft>
 				<onright>700</onright>
-				<onup>9001</onup>
-				<ondown>20</ondown>
+				<onup>9003</onup>
+				<ondown>9001</ondown>
 				<include>HomeAddonsCommonLayout</include>
 				<content>
 					<include>HomeAddonItemsVideos</include>
@@ -993,8 +993,8 @@
 				<visible>Container(9000).HasFocus(3)</visible>
 				<onleft>703</onleft>
 				<onright>703</onright>
-				<onup>9001</onup>
-				<ondown>20</ondown>
+				<onup>9003</onup>
+				<ondown>9001</ondown>
 				<include>HomeAddonsCommonLayout</include>
 				<content>
 					<include>HomeAddonItemsMusic</include>
@@ -1005,8 +1005,8 @@
 				<visible>Container(9000).HasFocus(4)</visible>
 				<onleft>704</onleft>
 				<onright>704</onright>
-				<onup>9001</onup>
-				<ondown>20</ondown>
+				<onup>9003</onup>
+				<ondown>9001</ondown>
 				<include>HomeAddonsCommonLayout</include>
 				<content>
 					<include>HomeAddonItemsPictures</include>
@@ -1017,8 +1017,8 @@
 				<visible>Container(9000).HasFocus(1)</visible>
 				<onleft>705</onleft>
 				<onright>705</onright>
-				<onup>9001</onup>
-				<ondown>20</ondown>
+				<onup>9003</onup>
+				<ondown>9001</ondown>
 				<include>HomeAddonsCommonLayout</include>
 				<content>
 					<include>HomeAddonItemsPrograms</include>
@@ -1032,10 +1032,10 @@
 			<include>Window_OpenClose_Animation</include>
 			<control type="rss">
 				<description>RSS feed</description>
-				<posx>100</posx>
+				<posx>200</posx>
 				<posy>0</posy>
 				<height>30</height>
-				<width>1145</width>
+				<width>1045</width>
 				<font>font12</font>
 				<urlset>1</urlset>
 				<textcolor>blue</textcolor>
@@ -1068,8 +1068,9 @@
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft>21</onleft>
-				<onright>21</onright>
-				<onup>9002</onup>
+				<onright>22</onright>
+				<onup condition="System.HasAddon(script.globalsearch)">608</onup>
+				<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
 				<ondown>9003</ondown>
 			</control>
 			<control type="image">
@@ -1093,9 +1094,10 @@
 				<onclick>ActivateWindow(Favourites)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
-				<onleft>20</onleft>
+				<onleft>22</onleft>
 				<onright>20</onright>
-				<onup>9002</onup>
+				<onup condition="System.HasAddon(script.globalsearch)">608</onup>
+				<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
 				<ondown>9003</ondown>
 			</control>
 			<control type="image">
@@ -1106,6 +1108,33 @@
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
 				<texture>icon_favourites.png</texture>
+			</control>
+			<control type="button" id="22">
+				<description>ReloadSkin push button</description>
+				<posx>110</posx>
+				<posy>0</posy>
+				<width>45</width>
+				<height>45</height>
+				<label>31003</label>
+				<font>-</font>
+				<aligny>-</aligny>
+				<onclick>ReloadSkin()</onclick>
+				<texturefocus border="5">floor_buttonFO.png</texturefocus>
+				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<onleft>20</onleft>
+				<onright>21</onright>
+				<onup condition="System.HasAddon(script.globalsearch)">608</onup>
+				<onup condition="!System.HasAddon(script.globalsearch)">603</onup>
+				<ondown>9003</ondown>
+			</control>
+			<control type="image">
+				<description>ReloadSkin Icon</description>
+				<posx>115</posx>
+				<posy>5</posy>
+				<width>35</width>
+				<height>35</height>
+				<aspectratio>keep</aspectratio>
+				<texture>OSDRepeatFO.png</texture>
 			</control>
 		</control>
 		<control type="group">

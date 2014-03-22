@@ -1,3 +1,15 @@
+[B]2.1.380 - 2014-03-17 - Changes By TheHighway[/B]
+- Added Skin Settings to System Sub-Menu on Home Screen.
+- Added Addon-ID to Add-on Information Dialog.
+
+[B]2.1.380 - 2014-03-16 - Changes By TheHighway[/B]
+- Adjusting spacing between addon shortcut on Home Screen. (includes.xml lines: 954 & 985)
+- Adjusting placement of stuff on Home Screen. Lots of work went into this.
+- Added ReloadSkin() button next to power button on Home Screen.  
+### This is basically for my own use.
+### Adjusted Left/Right button movement to include this button.
+- Adjusted Left & Width settings for Scrolling text of RSS Feed(s) on Home Screen.
+
 [B]2.1.379 - 2014-02-22 - Changes By TheHighway[/B]
 - Setting up a project on Github.
 - Identity Change:

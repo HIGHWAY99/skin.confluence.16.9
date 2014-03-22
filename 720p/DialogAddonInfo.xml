@@ -76,7 +76,7 @@
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font13</font>
-				<label>[B]$INFO[ListItem.Property(Addon.Name)][/B]</label>
+				<label>[B]$INFO[ListItem.Property(Addon.Name)][/B]  ($INFO[ListItem.Property(Addon.Id)])</label>
 				<textcolor>white</textcolor>
 				<scroll>true</scroll>
 			</control>
